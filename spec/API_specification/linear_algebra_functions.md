@@ -411,15 +411,14 @@ Computes the matrix or vector norm of `x`.
 -   **ord**: _Optional\[ Union\[  int, float, Literal\[ inf, -inf, 'fro', 'nuc' ] ] ]_
 
     -   order of the norm. The following mathematical norms must be supported:
-
-    | ord              | matrix                          | vector                     |
-    | ---------------- | ------------------------------- | -------------------------- |
-    | 'fro'            | 'fro'                           | -                          |
-    | 'nuc'            | 'nuc'                           | -                          |
-    | 1                | max(sum(abs(x), axis=0))        | L1-norm (Manhattan)        |
-    | 2                | largest singular value          | L2-norm (Euclidean)        |
-    | inf              | max(sum(abs(x), axis=1))        | infinity norm              |
-    | (int,float >= 1) | -                               | p-norm                     |
+        | ord              | matrix                          | vector                     |
+        | ---------------- | ------------------------------- | -------------------------- |
+        | 'fro'            | 'fro'                           | -                          |
+        | 'nuc'            | 'nuc'                           | -                          |
+        | 1                | max(sum(abs(x), axis=0))        | L1-norm (Manhattan)        |
+        | 2                | largest singular value          | L2-norm (Euclidean)        |
+        | inf              | max(sum(abs(x), axis=1))        | infinity norm              |
+        | (int,float >= 1) | -                               | p-norm                     |
 
         The following non-mathematical "norms" must be supported:
 
