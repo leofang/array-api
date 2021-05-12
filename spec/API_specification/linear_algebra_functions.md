@@ -410,7 +410,7 @@ Computes the matrix or vector norm of `x`.
 
 -   **ord**: _Optional\[ Union\[  int, float, Literal\[ inf, -inf, 'fro', 'nuc' ] ] ]_
 
-    -   order of the norm. The following mathematical norms must be supported:
+    -   order of the norm. The following mathematical norms must be supported
 
         | ord              | matrix                          | vector                     |
         | ---------------- | ------------------------------- | -------------------------- |
